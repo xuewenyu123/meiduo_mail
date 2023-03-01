@@ -1,2 +1,5 @@
 .idea/
 .git/
+db.sqlite3
+*/.pyc
+__pycache__/
