@@ -4,5 +4,5 @@ from apps.users.views import UsernameCountView
 
 
 urlpatterns = [
-    path('usernames/<username>/count/', UsernameCountView.as_view()),
+    path('usernames/<username:username>/count/', UsernameCountView.as_view()),
 ]
