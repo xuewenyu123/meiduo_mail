@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
-import os, sys
+import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -200,7 +200,7 @@ AUTH_USER_MODEL = 'users.User'
 CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:8080',
     'http://localhost:8080',
-    'http://www.meiduo.site:8000',
-    'http://www.meiduo.site:8080',
+    'http://www.meiduomall.site:8000',
+    'http://www.meiduomall.site:8080',
 )
 CORS_ALLOW_CREDENTIALS = True  # 运行携带cookie
