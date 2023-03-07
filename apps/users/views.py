@@ -78,7 +78,7 @@ class RegisterView(View):
               username = body_dict.get("username")
               password = body_dict.get('password')
               password2 = body_dict.get('password2')
-              mobile = body_dict.get('moblie')
+              mobile = body_dict.get('mobile')
               allow = body_dict.get('allow')
               # 3. 验证数据
               # 3.1 用户名、密码、确认密码、手机号、验证码、是否同意协议 都要有
